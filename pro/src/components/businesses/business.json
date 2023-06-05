@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_businesses_businesses",
+  "info": {
+    "displayName": "business"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

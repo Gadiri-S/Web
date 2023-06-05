@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "text"
+    },
+    "lastname": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "business": {
+      "type": "text"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

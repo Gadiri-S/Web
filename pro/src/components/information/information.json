@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_information_information",
+  "info": {
+    "displayName": "Information"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

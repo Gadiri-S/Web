@@ -1,0 +1,38 @@
+{
+  "name": "pro",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "production": "cross-env NODE_ENV=production npm start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.10.5",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/provider-email-nodemailer": "^4.6.1",
+    "@strapi/provider-email-sendgrid": "^4.6.1",
+    "@strapi/strapi": "4.10.5",
+    "cross-env": "^7.0.3",
+    "mysql": "2.18.1",
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-provider-email-mailjet": "^4.0.0",
+    "strapi-utils": "^3.6.11"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "d504e65e-f98b-459c-91e0-7b2beebe4a8e"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
